@@ -36,5 +36,10 @@
     <header>
     </header>
     @yield('divSimpatico')
+    @yield('main')
+    @yield('corpo')
+    <footer>
+
+    </footer>
 </body>
 </html>

@@ -60,6 +60,7 @@ header {
     height: 400px;
     background-image: url(../img/jumbotron.jpg);
     background-size: cover;
+    position: relative;
 }
 
 /* div_simpatico */
@@ -68,8 +69,56 @@ header {
 .piccolo {
     display: inline-block;
     padding: 10px;
-    position: relative;
-    bottom: 10px;
-    left: 100px;
+    position: absolute;
+    top: 31rem;
+    left:11%;
     background-color: #0c7cec;
+}
+
+.contenitore {
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 2rem;
+}
+
+.card {
+    display: inline-block;
+    margin: 24px;
+    border: 1px solid transparent ;
+}
+
+.card:hover{
+    border: 1px solid gray;
+}
+
+.btn-1 {
+    background-color: #0c7cec;
+    padding: 10px;
+    width: 200px;
+    display: block;
+    color: white;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    border: 1px solid transparent;
+}
+
+.btn-1:hover {
+ border: 1px solid white;
+}
+
+.blue-mid {
+    background-color: #0c7cec;
+}
+
+.flex-blueMid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-blueMid {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
 }
