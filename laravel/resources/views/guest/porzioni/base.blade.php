@@ -39,7 +39,49 @@
     @yield('main')
     @yield('corpo')
     <footer>
-
+        <div class="contenitore" >
+            <div class="meta">
+                <ul>titolo
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                </ul>
+                <ul>titolo
+                    <li>text</li>
+                    <li>text</li>
+                </ul>
+                <ul>titolo
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                </ul>
+                <ul>titolo
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                </ul>
+                <p>text text text</p>
+            </div>
+            <div class="meta destra">
+            </div>
+        </div>
     </footer>
+    <div class="div-finish" >
+        text
+    </div>
 </body>
 </html>

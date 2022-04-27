@@ -35,6 +35,7 @@
     position: absolute;
     border: 1px solid black;
     background-color: aliceblue;
+    z-index: 1;
 }
 
 .show_ul{
@@ -121,4 +122,35 @@ header {
     display: flex;
     align-items: center;
     margin: 1rem;
+}
+
+/* footer */
+/*++++++++*/
+
+footer{
+    background-image: url(../img/footer-bg.jpg);
+    color: white;
+}
+
+.meta{
+    width: 48%;
+    display: inline-block;
+}
+
+.destra {
+    background-image: url(../img/dc-logo-bg.png);
+    height: 100%;
+}
+
+footer ul{
+    display: inline-block;
+}
+
+footer li {
+    color: gray;
+}
+
+.div-finish{
+    height: 3rem;
+    background-color: darkgray;
 }
