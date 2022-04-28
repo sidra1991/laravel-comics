@@ -132,14 +132,16 @@ footer{
     color: white;
 }
 
-.meta{
-    width: 48%;
-    display: inline-block;
-}
-
 .destra {
     background-image: url(../img/dc-logo-bg.png);
-    height: 100%;
+    background-repeat: no-repeat;
+    background-position:  right center;
+
+}
+
+.footer-control{
+    width: 100px;
+    display: inline-block;
 }
 
 footer ul{
@@ -153,4 +155,51 @@ footer li {
 .div-finish{
     height: 3rem;
     background-color: darkgray;
+}
+
+/* card_selezionata*/
+/******************/
+
+.blobs{
+    height: 2rem;
+    background-color: #0c7cec;
+    position: relative;
+}
+
+.focus{
+    height: 200px;
+    width: 200px;
+}
+
+.focus-container{
+    position: absolute;
+    left: 11%;
+    bottom: 0;
+}
+
+.green-line{
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-gl{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+.opt-gl{
+    border-left: 1px solid black;
+    display: inline-block;
+}
+
+.meta-main-card{
+    display: inline-block;
+}
+
+.flex-card{
+    display: flex;
 }

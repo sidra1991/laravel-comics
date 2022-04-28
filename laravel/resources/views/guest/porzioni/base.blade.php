@@ -14,7 +14,7 @@
     <nav>
         <img src="./img/dc-logo.png" alt="">
         <ul class="ul_nav" >
-            <li>CHARACTERS</li>
+            <li><a href="/card">CHARACTERS</a></li>
             <li>COMICS</li>
             <li>MOVIES</li>
             <li>TV</li>
@@ -40,43 +40,47 @@
     @yield('corpo')
     <footer>
         <div class="contenitore" >
-            <div class="meta">
-                <ul>titolo
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                </ul>
-                <ul>titolo
-                    <li>text</li>
-                    <li>text</li>
-                </ul>
-                <ul>titolo
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                </ul>
-                <ul>titolo
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                </ul>
+            <div class="destra">
+                <section class="footer-control" >
+                    <ul>titolo
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                    </ul>
+                    <ul>titolo
+                        <li>text</li>
+                        <li>text</li>
+                    </ul>
+                </section>
+                <section class="footer-control" >
+                    <ul>titolo
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                    </ul>
+                </section>
+                <section class="footer-control" >
+                    <ul>titolo
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                        <li>text</li>
+                    </ul>
+                </section>
                 <p>text text text</p>
-            </div>
-            <div class="meta destra">
             </div>
         </div>
     </footer>
